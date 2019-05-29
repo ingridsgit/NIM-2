@@ -1,0 +1,15 @@
+/* current player's name */
+"%@, please pick 1 to %d matches." = "%1$@, veuillez prendre entre 1 et %2$d allumettes.";
+
+/* Current's player name - Player 1's name - Player 1's points - Player 2's name - Player 2's points */
+"%@, you won. \n%@ : %d points \n%@ : %d points" = "%1$@, vous avez gagné.\n            %2$@ : %3$d points\n            %4$@ : %5$d points";
+
+/* No comment provided by engineer. */
+"Confirm" = "Confirmer";
+
+/* Current's player name */
+"It's %@'s turn to play" = "%@, c'est à vous de jouer";
+
+/* No comment provided by engineer. */
+"Play again" = "Rejouer";
+

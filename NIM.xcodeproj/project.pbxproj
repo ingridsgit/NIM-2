@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8471777F229D3A4300AFD51D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471777E229D3A4300AFD51D /* Player.swift */; };
+		84D5F101229D71B800711841 /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5F100229D71B800711841 /* NewGameViewController.swift */; };
+		84D5F103229D72F400711841 /* NIMGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5F102229D72F400711841 /* NIMGame.swift */; };
+		84D5F10B229EA34500711841 /* NIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5F10A229EA34500711841 /* NIMTests.swift */; };
+		84D5F116229EB2EB00711841 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D5F118229EB2EB00711841 /* Localizable.strings */; };
 		F801FD40229D28ED00A12662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F801FD3F229D28ED00A12662 /* AppDelegate.swift */; };
 		F801FD42229D28ED00A12662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F801FD41229D28ED00A12662 /* ViewController.swift */; };
 		F801FD45229D28ED00A12662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F801FD43229D28ED00A12662 /* Main.storyboard */; };
@@ -14,7 +19,27 @@
 		F801FD4A229D28EE00A12662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F801FD48229D28EE00A12662 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		84D5F10D229EA34500711841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F801FD34229D28ED00A12662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F801FD3B229D28ED00A12662;
+			remoteInfo = NIM;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8471777E229D3A4300AFD51D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		84D5F100229D71B800711841 /* NewGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewGameViewController.swift; path = ../NewGameViewController.swift; sourceTree = "<group>"; };
+		84D5F102229D72F400711841 /* NIMGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIMGame.swift; sourceTree = "<group>"; };
+		84D5F108229EA34500711841 /* NIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D5F10A229EA34500711841 /* NIMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIMTests.swift; sourceTree = "<group>"; };
+		84D5F10C229EA34500711841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D5F112229EB13200711841 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		84D5F113229EB13200711841 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		84D5F117229EB2EB00711841 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84D5F119229EB2ED00711841 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F801FD3C229D28ED00A12662 /* NIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F801FD3F229D28ED00A12662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F801FD41229D28ED00A12662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +50,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		84D5F105229EA34500711841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F801FD39229D28ED00A12662 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +67,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84D5F109229EA34500711841 /* NIMTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D5F10A229EA34500711841 /* NIMTests.swift */,
+				84D5F10C229EA34500711841 /* Info.plist */,
+			);
+			path = NIMTests;
+			sourceTree = "<group>";
+		};
 		F801FD33229D28ED00A12662 = {
 			isa = PBXGroup;
 			children = (
 				F801FD3E229D28ED00A12662 /* NIM */,
+				84D5F109229EA34500711841 /* NIMTests */,
 				F801FD3D229D28ED00A12662 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				F801FD3C229D28ED00A12662 /* NIM.app */,
+				84D5F108229EA34500711841 /* NIMTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,12 +97,16 @@
 		F801FD3E229D28ED00A12662 /* NIM */ = {
 			isa = PBXGroup;
 			children = (
+				84D5F100229D71B800711841 /* NewGameViewController.swift */,
 				F801FD3F229D28ED00A12662 /* AppDelegate.swift */,
 				F801FD41229D28ED00A12662 /* ViewController.swift */,
+				84D5F118229EB2EB00711841 /* Localizable.strings */,
 				F801FD43229D28ED00A12662 /* Main.storyboard */,
 				F801FD46229D28EE00A12662 /* Assets.xcassets */,
 				F801FD48229D28EE00A12662 /* LaunchScreen.storyboard */,
 				F801FD4B229D28EE00A12662 /* Info.plist */,
+				8471777E229D3A4300AFD51D /* Player.swift */,
+				84D5F102229D72F400711841 /* NIMGame.swift */,
 			);
 			path = NIM;
 			sourceTree = "<group>";
@@ -67,6 +114,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		84D5F107229EA34500711841 /* NIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5F10F229EA34500711841 /* Build configuration list for PBXNativeTarget "NIMTests" */;
+			buildPhases = (
+				84D5F104229EA34500711841 /* Sources */,
+				84D5F105229EA34500711841 /* Frameworks */,
+				84D5F106229EA34500711841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D5F10E229EA34500711841 /* PBXTargetDependency */,
+			);
+			name = NIMTests;
+			productName = NIMTests;
+			productReference = 84D5F108229EA34500711841 /* NIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F801FD3B229D28ED00A12662 /* NIM */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F801FD4E229D28EE00A12662 /* Build configuration list for PBXNativeTarget "NIM" */;
@@ -94,6 +159,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Maxime Britto";
 				TargetAttributes = {
+					84D5F107229EA34500711841 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F801FD3B229D28ED00A12662;
+					};
 					F801FD3B229D28ED00A12662 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -106,6 +175,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = F801FD33229D28ED00A12662;
 			productRefGroup = F801FD3D229D28ED00A12662 /* Products */;
@@ -113,16 +183,25 @@
 			projectRoot = "";
 			targets = (
 				F801FD3B229D28ED00A12662 /* NIM */,
+				84D5F107229EA34500711841 /* NIMTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		84D5F106229EA34500711841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F801FD3A229D28ED00A12662 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F801FD4A229D28EE00A12662 /* LaunchScreen.storyboard in Resources */,
+				84D5F116229EB2EB00711841 /* Localizable.strings in Resources */,
 				F801FD47229D28EE00A12662 /* Assets.xcassets in Resources */,
 				F801FD45229D28ED00A12662 /* Main.storyboard in Resources */,
 			);
@@ -131,22 +210,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		84D5F104229EA34500711841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5F10B229EA34500711841 /* NIMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F801FD38229D28ED00A12662 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F801FD42229D28ED00A12662 /* ViewController.swift in Sources */,
+				84D5F101229D71B800711841 /* NewGameViewController.swift in Sources */,
+				8471777F229D3A4300AFD51D /* Player.swift in Sources */,
 				F801FD40229D28ED00A12662 /* AppDelegate.swift in Sources */,
+				84D5F103229D72F400711841 /* NIMGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		84D5F10E229EA34500711841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F801FD3B229D28ED00A12662 /* NIM */;
+			targetProxy = 84D5F10D229EA34500711841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		84D5F118229EB2EB00711841 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5F117229EB2EB00711841 /* en */,
+				84D5F119229EB2ED00711841 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		F801FD43229D28ED00A12662 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F801FD44229D28ED00A12662 /* Base */,
+				84D5F112229EB13200711841 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,6 +263,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F801FD49229D28EE00A12662 /* Base */,
+				84D5F113229EB13200711841 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,10 +271,49 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		84D5F110229EA34500711841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ingridbazin.ios.NIMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIM.app/NIM";
+			};
+			name = Debug;
+		};
+		84D5F111229EA34500711841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ingridbazin.ios.NIMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIM.app/NIM";
+			};
+			name = Release;
+		};
 		F801FD4C229D28EE00A12662 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -317,6 +466,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		84D5F10F229EA34500711841 /* Build configuration list for PBXNativeTarget "NIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5F110229EA34500711841 /* Debug */,
+				84D5F111229EA34500711841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F801FD37229D28ED00A12662 /* Build configuration list for PBXProject "NIM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

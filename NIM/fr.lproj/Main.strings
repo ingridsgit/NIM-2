@@ -1,0 +1,18 @@
+/* Class = "UILabel"; text = "First player's name"; ObjectID = "1Qr-ka-ds9"; */
+"1Qr-ka-ds9.text" = "Nom du premier joueur";
+
+/* Class = "UIButton"; normalTitle = "New game"; ObjectID = "73t-aE-GqF"; */
+"73t-aE-GqF.normalTitle" = "Nouvelle partie";
+
+/* Class = "UILabel"; text = "Nim Game"; ObjectID = "86e-o1-LSV"; */
+"86e-o1-LSV.text" = "Jeu de NIM";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "DVn-f2-Gp1"; */
+"DVn-f2-Gp1.normalTitle" = "Confirmer";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "n9A-i9-xIE"; */
+"n9A-i9-xIE.text" = "Statut";
+
+/* Class = "UILabel"; text = "Second player's name"; ObjectID = "YHQ-wN-3yr"; */
+"YHQ-wN-3yr.text" = "Nom du deuxième joueur";
+
